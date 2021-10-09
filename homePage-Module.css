@@ -1,8 +1,21 @@
 body {
-  background-color: #e4e4e4;
+  animation: mymove 10s infinite;
+
   font-family: Arial, Helvetica, sans-serif;
 }
+@keyframes mymove {
+  from {
+    background-color: rgb(223, 223, 223);
+  }
 
+  to {
+    background-color: rgb(255, 220, 163);
+  }
+}
+
+.Grey {
+  filter: grayscale(100%);
+}
 /* 
 
 SMARTPHONES SCREEN 
@@ -56,6 +69,7 @@ SMARTPHONES SCREEN
     background-color: white;
     border: 1px solid rgb(216, 216, 216);
     box-shadow: 0 0 30px rgb(218, 218, 218);
+
     text-align: center;
   }
 
@@ -232,6 +246,7 @@ TABLETS SCREEN
     background-color: white;
     border: 1px solid rgb(216, 216, 216);
     box-shadow: 0 0 30px rgb(218, 218, 218);
+
     text-align: center;
   }
 

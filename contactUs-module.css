@@ -1,10 +1,22 @@
 /* 
 MOBILE SCREEN
 */
-@media screen and (max-width: 767px) {
-   body {
-    background-color: #e4e4e4;
+body {
+  animation: mymove 6s infinite;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@keyframes mymove {
+  from {
+    background-color: rgb(223, 223, 223);
   }
+
+  to {
+    background-color: rgb(255, 220, 163);
+  }
+ 
+}
+@media screen and (max-width: 767px) {
+  
   img.navLogo {
     width: 10%;
   }

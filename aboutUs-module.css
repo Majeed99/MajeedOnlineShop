@@ -1,3 +1,16 @@
+body {
+  animation: mymove 6s infinite;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@keyframes mymove {
+  from {
+    background-color: rgb(223, 223, 223);
+  }
+
+  to {
+    background-color: rgb(255, 220, 163);
+  }
+}
 /* 
 MOBILE SCREEN
 */
@@ -9,7 +22,6 @@ MOBILE SCREEN
     width: 10%;
   }
   .aboutus {
-    
     padding: 1% 10%;
     text-align: center;
   }
@@ -34,8 +46,6 @@ MOBILE SCREEN
     transform: scale(110%);
     filter: opacity(0.8);
   }
-
-
 }
 /* 
 TABLET SCREEN
@@ -62,15 +72,13 @@ TABLET SCREEN
     line-height: 120%;
     text-align: left;
     font-size: 18px;
-  
   }
   .aboutus img {
     width: 80%;
   }
-  .grid{
+  .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
   }
   .aboutus img:hover {
     position: relative;
@@ -104,15 +112,13 @@ PC SCREEN
     line-height: 150%;
     text-align: left;
     font-size: 20px;
-   
   }
   .aboutus img {
     width: 80%;
   }
-  .grid{
+  .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
   }
   .aboutus img:hover {
     position: relative;
