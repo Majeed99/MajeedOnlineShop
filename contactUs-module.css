@@ -13,12 +13,13 @@ body {
   to {
     background-color: rgb(255, 220, 163);
   }
- 
 }
 @media screen and (max-width: 767px) {
-  
+  .navbar-brand {
+    width: 50% !important;
+  }
   img.navLogo {
-    width: 10%;
+    width: 20%;
   }
   .contactUsForm {
     padding: 5% 20%;

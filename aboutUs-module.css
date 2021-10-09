@@ -18,8 +18,11 @@ MOBILE SCREEN
   body {
     background-color: #e4e4e4;
   }
+  .navbar-brand {
+    width: 50%;
+  }
   img.navLogo {
-    width: 10%;
+    width: 20%;
   }
   .aboutus {
     padding: 1% 10%;

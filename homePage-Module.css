@@ -23,7 +23,7 @@ SMARTPHONES SCREEN
 */
 @media screen and (max-width: 767px) {
   .navLogo {
-    width: 10%;
+    width: 15%;
   }
   .headerPhoto {
     filter: grayscale(50%);
@@ -77,7 +77,7 @@ SMARTPHONES SCREEN
     padding: 2% 10%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(9, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     grid-gap: 2%;
   }
   .itemTitle {
@@ -156,6 +156,7 @@ SMARTPHONES SCREEN
     margin-top: auto;
   }
   .testimonial {
+    margin-top: 45%;
     padding: 0 10%;
   }
   .testimonial h2 {
@@ -191,6 +192,9 @@ SMARTPHONES SCREEN
     flex-direction: column;
 
     padding: 0 10%;
+  }
+  .navbar-brand {
+    width: 70%;
   }
 }
 /* 
@@ -254,6 +258,7 @@ TABLETS SCREEN
     padding: 2% 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto, 1fr);
     grid-gap: 2%;
   }
   .itemTitle {
@@ -285,7 +290,7 @@ TABLETS SCREEN
     border: 3px rgb(83, 35, 3) solid;
     display: block;
     width: 100%;
-    height: auto;
+    height: 300px;
   }
   .overlay {
     position: absolute;
@@ -332,6 +337,7 @@ TABLETS SCREEN
     margin-top: auto;
   }
   .testimonial {
+    margin-top: 10%;
     padding: 0 10%;
   }
   .testimonial h2 {
@@ -464,7 +470,7 @@ PC SCREEN
     border: 3px rgb(83, 35, 3) solid;
     display: block;
     width: 100%;
-    height: auto;
+    height: 200px;
   }
   .overlay {
     position: absolute;
