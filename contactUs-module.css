@@ -25,6 +25,7 @@ body {
     padding: 5% 20%;
   }
   .contactUsForm h4 {
+    color: rgb(103, 28, 173);
     text-align: center;
     margin-bottom: 3%;
   }
@@ -49,6 +50,7 @@ body {
     font-size: larger;
     width: max-content;
     font-weight: bolder;
+    color: rgb(121, 17, 17);
   }
   .first {
     padding-bottom: 5%;
@@ -68,6 +70,8 @@ TABLET SCREEN
     padding: 5% 20%;
   }
   .contactUsForm h4 {
+    color: rgb(103, 28, 173);
+
     text-align: center;
     margin-bottom: 3%;
   }
@@ -92,6 +96,7 @@ TABLET SCREEN
     font-size: larger;
     width: max-content;
     font-weight: bolder;
+    color: rgb(121, 17, 17);
   }
   .first {
     padding-bottom: 5%;
@@ -113,6 +118,7 @@ PC SCREEN
     padding: 5% 20%;
   }
   .contactUsForm h4 {
+    color: rgb(103, 28, 173);
     text-align: center;
     margin-bottom: 3%;
   }
@@ -137,6 +143,7 @@ PC SCREEN
     font-size: larger;
     width: max-content;
     font-weight: bolder;
+    color: rgb(121, 17, 17);
   }
   .first {
     padding-bottom: 5%;
