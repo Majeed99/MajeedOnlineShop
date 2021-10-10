@@ -72,6 +72,10 @@ SMARTPHONES SCREEN
 
     text-align: center;
   }
+  .itemCard:hover {
+    
+    transform: scale(1.1);
+  }
 
   .allItems {
     padding: 2% 10%;
@@ -253,6 +257,9 @@ TABLETS SCREEN
 
     text-align: center;
   }
+  .itemCard:hover {
+    transform: scale(1.1);
+  }
 
   .allItems {
     padding: 2% 10%;
@@ -430,7 +437,9 @@ PC SCREEN
     box-shadow: 0 0 30px rgb(218, 218, 218);
     text-align: center;
   }
-
+  .itemCard:hover {
+    transform: scale(1.1);
+  }
   .allItems {
     padding: 2% 10%;
     display: grid;
