@@ -1,0 +1,163 @@
+@media screen and (max-width: 767px) {
+  .navLogo {
+    width: 15%;
+  }
+  .navbar-brand {
+    width: 70%;
+  }
+  .all {
+    display: grid;
+    padding: 2% 5%;
+  }
+  .item {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    border: gray 1px solid;
+  }
+  .heading {
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+  }
+  .textWithBtn input {
+    border: none;
+    width: 80%;
+    height: 100%;
+    padding: 2%;
+    background-color: transparent;
+  }
+  .textWithBtn input::placeholder {
+    color: rgb(17, 17, 17);
+  }
+
+  .textWithBtn button {
+    border: none;
+    width: 20%;
+    background-color: transparent;
+    color: rgb(87, 87, 87);
+    text-align: center;
+    border-left: 1px solid rgb(87, 87, 87);
+  }
+  .textWithBtn {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+  }
+  .sammury h3 {
+    font-size: 15px;
+  }
+  .bill {
+    padding: 0 5%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .navLogo {
+    width: 10%;
+  }
+  .all {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 2% 5%;
+  }
+  .navbar-brand {
+    width: 70%;
+  }
+  .item {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    border: gray 1px solid;
+  }
+  .heading {
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+  }
+  .textWithBtn input {
+    border: none;
+    width: 80%;
+    height: 100%;
+    padding: 2%;
+    background-color: transparent;
+  }
+  .textWithBtn input::placeholder {
+    color: rgb(17, 17, 17);
+  }
+
+  .textWithBtn button {
+    border: none;
+    width: 20%;
+    background-color: transparent;
+    color: rgb(87, 87, 87);
+    text-align: center;
+    border-left: 1px solid rgb(87, 87, 87);
+  }
+  .textWithBtn {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+  }
+  .sammury h3 {
+    font-size: 15px;
+  }
+  .bill {
+    padding: 0 5%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .navLogo {
+    width: 5%;
+  }
+  .all {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 2% 5%;
+  }
+  .navbar-brand {
+    width: 70%;
+  }
+  .item {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    border: gray 1px solid;
+  }
+  .heading {
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+  }
+  .textWithBtn input {
+    border: none;
+    width: 80%;
+    height: 100%;
+    padding: 2%;
+    background-color: transparent;
+  }
+  .textWithBtn input::placeholder {
+    color: rgb(17, 17, 17);
+  }
+
+  .textWithBtn button {
+    border: none;
+    width: 20%;
+    background-color: transparent;
+    color: rgb(87, 87, 87);
+    text-align: center;
+    border-left: 1px solid rgb(87, 87, 87);
+  }
+  .textWithBtn {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+  }
+  .sammury h3 {
+    font-size: 15px;
+  }
+  .bill {
+    padding: 0 5%;
+  }
+}
