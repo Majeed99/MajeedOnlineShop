@@ -5,6 +5,17 @@ body {
   animation: mymove 6s infinite;
   font-family: Arial, Helvetica, sans-serif;
 }
+.navbar-light .navbar-nav .nav-link{
+  text-align: center;
+}
+.dot {
+  padding: 0;
+  height: 21px;
+    min-width: 21px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
 @keyframes mymove {
   from {
     background-color: rgb(223, 223, 223);

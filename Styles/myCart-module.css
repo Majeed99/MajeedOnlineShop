@@ -1,3 +1,14 @@
+.navbar-light .navbar-nav .nav-link{
+  text-align: center;
+}
+.dot {
+  padding: 0;
+  height: 21px;
+    min-width: 21px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
 @media screen and (max-width: 767px) {
   .navLogo {
     width: 15%;
